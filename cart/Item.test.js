@@ -28,11 +28,6 @@ describe(Item, () => {
         });
     });
     describe("getTotal()", () => {
-        it("is 10 when the Item is created", () => {
-            const item = new Item(TEST_PRODUCT);
-            expect(item.getTotal()).toBe(10.0);
-        });
-
         it("is the product price when created", () => {
             const item = new Item(TEST_PRODUCT);
             expect(item.getTotal()).toBe(TEST_PRODUCT.getPrice());
