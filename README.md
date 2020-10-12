@@ -6,3 +6,4 @@
 
 ### Running the tests
 * Run tests, run `yarn test`
+* Run tests in watch mode, run `yarn watch`
